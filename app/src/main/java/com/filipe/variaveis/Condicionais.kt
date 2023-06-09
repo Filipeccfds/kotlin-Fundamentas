@@ -9,14 +9,14 @@ fun main() {
     var c = 10
 
     if (a > b && a >c){
-        println("variavel a e menor que as outra variaveis valor")
+        println("A variavel *A* e menor que as outras variaveis")
     } else if ( a >= b ){
-        println("variaveis sao iguais")
+        println("A variavel *A* e a variavel *B* são iguais")
     } else if ( a > c ){
-    println("variaveis a e menor que a variavel c"
+    println("A variavel *A* e menor que a variavel *C*"
     )
     } else{
-        println("a variavel a e a menor variavel doseu conjunto")
+        println("a variavel *A* e a menor variavel do seu conjunto")
     }
     // uso do when
     var texto1 = "joao"
@@ -27,12 +27,12 @@ fun main() {
         texto1 == texto2 -> "o texto 1 e o texto 2 são iguais"
         texto1 == texto3 -> "o texto 1 e o texto 3 são iguais"
         texto2 == texto3 -> "o texto 2 e o texto 3 são iguais"
-        texto1 != texto3 -> "o texto 1 e o texto 3 nao sao iguais"
-        texto2 != texto3 -> "o texto 1 e o texto 2 nao sao iguais"
-        else -> "nenhuma das condiçoes foi aceita"
+        texto1 != texto3 -> "o texto 1 e o texto 3 nao são iguais"
+        texto2 != texto3 -> "o texto 1 e o texto 2 nao são iguais"
+        else -> "nenhuma das condições foi aceita"
     }
 
-    //em relaçao as condicionais o condicional para assim que  a primeiar condição nao ordem de
+    //em relaçao as condicionais: o condicional para, assim que  a primeira condição na ordem de
     //execução for aceita
     println(resultado)
 
